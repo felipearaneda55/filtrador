@@ -28,39 +28,7 @@ class block_filtrador extends block_base {
 			$this-> content = new stdClass;
 			$this->content->text = $boton;
 			$this->content->footer= 'eseeerea';
-			 
-		//$root = navigation_node::create( "Fitro", null, navigation_node::TYPE_ROOTNODE,null,null);
-		//if ($nodo = $this->filtrador ())
-		//	$root = add_node($nodo);
-		
-		//$renderer = $this->page->get_renderer('filtrador');
-		//$this->content->text = $renderer->
 		return $this->content;
 	}
 }
-			//$form = new textbox ();
-		//$this->content = new stdClass;
-		//$this->content->text = $form-> display();
-		//$this->content->footer= ' ';
 		
-		//return $this->content;
-
-		// Condición que solo permite que el bloque sea visible dentro de un curso, de lo contrario no muestra nada
-		//$course = $PAGE->course;
-		//echo 'hola';
-		
-			//return false;
-		//else{
-			// Cuando se esta dentro de un curso se carga todo el contenido del bloque
-			//$this->content = new stdClass;
-			// Con las tablas y los botones listos, estos se concatenan y se asignan como contenido del bloque
-			//$form = new textbox();
-			//$this->content->text = $form->display();
-			//$this->content->footer = "";
-
-			//return $this->content;
-		//}
-			
-//	}
-		
-//}
